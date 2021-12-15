@@ -1,11 +1,11 @@
 {
-  "name": "tweet-data-generator",
-  "version": "1.0.0",
+  "name": "@nlpdev/tweet-data-generator",
+  "private": true,
+  "version": "0.1.0",
   "main": "dist/index.js",
   "repository": "https://github.com/SocialNetProcessingLab/tweet-data-generator.git",
   "author": "himself65 <himself65@outlook.com>",
   "license": "GPL-3.0",
-  "private": true,
   "scripts": {
     "build": "tsc"
   },
