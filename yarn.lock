@@ -5,21 +5,21 @@ __metadata:
   version: 5
   cacheKey: 8
 
+"@nlpdev/tweet-data-generator@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@nlpdev/tweet-data-generator@workspace:."
+  dependencies:
+    faker: ^5.5.3
+    typescript: ^4.5.4
+  languageName: unknown
+  linkType: soft
+
 "faker@npm:^5.5.3":
   version: 5.5.3
   resolution: "faker@npm:5.5.3"
   checksum: 684fd64c8d3897e54248f95b4f6319f75d97691b8500cd13adf4af2c28f9204f766c1d1aaa6b41338f0beaaa87256c3132f8708a1a8f189d122b92f6b98081c3
   languageName: node
   linkType: hard
-
-"tweet-data-generator@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "tweet-data-generator@workspace:."
-  dependencies:
-    faker: ^5.5.3
-    typescript: ^4.5.4
-  languageName: unknown
-  linkType: soft
 
 "typescript@npm:^4.5.4":
   version: 4.5.4
