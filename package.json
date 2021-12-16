@@ -1,6 +1,5 @@
 {
   "name": "@nlpdev/tweet-data-generator",
-  "private": true,
   "version": "0.1.0",
   "main": "dist/index.js",
   "repository": "https://github.com/SocialNetProcessingLab/tweet-data-generator.git",
