@@ -1,7 +1,12 @@
-name: Publish Package to GitHub Pkg
+name: Publish Package to Npm
 on:
   push:
     branches: [ main ]
+    paths:
+      - '**.js'
+      - '**.ts'
+      - '**.json'
+      - 'yarn.lock'
 
 jobs:
   build:
