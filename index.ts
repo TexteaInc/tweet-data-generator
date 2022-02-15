@@ -1,6 +1,4 @@
-function generate () {
-
-}
+function generate () {}
 
 export {
   generate
